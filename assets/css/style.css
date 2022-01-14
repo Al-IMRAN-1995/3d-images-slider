@@ -1,0 +1,52 @@
+html,
+body {
+    height: 100%;
+    padding: 0px;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.7;
+    font-weight: normal;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    background-color: #222;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+/*==============================================================================================
+                                              Base css
+================================================================================================*/
+.my_image_gallary {
+    min-height: 100vh;
+}
+
+.swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: auto;
+    background-color: #fff;
+}
+
+.single_box {
+    height: 200px;
+    width: 300px;
+}
+
+.single_box img {
+    height: 100%;
+    width: 100%;
+}
